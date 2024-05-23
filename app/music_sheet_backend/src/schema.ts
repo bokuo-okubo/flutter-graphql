@@ -1,5 +1,6 @@
-// src/schema.ts
 import { builder } from "./builder";
+import bcrypt from "bcrypt";
+import jwt from "jsonwebtoken";
 
 // Userモデルの定義
 builder.prismaObject("User", {

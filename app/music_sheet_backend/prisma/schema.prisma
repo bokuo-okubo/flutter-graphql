@@ -4,6 +4,7 @@ datasource db {
 }
 
 generator client {
+  // provider = "prisma-pothos-types"
   provider = "prisma-client-js"
 }
 
